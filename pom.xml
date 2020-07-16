@@ -69,23 +69,24 @@
     </build>
 
     <repositories>
-        <repository>
-            <id>papermc-repo</id>
-            <url>https://papermc.io/repo/service/rest/repository/browse/maven-public/</url>
+                <repository>
+            <id>aikar</id>
+            <url>https://repo.aikar.co/content/groups/aikar/</url>
         </repository>
-        
+
         <repository>
             <id>ess-repo</id>
             <url>https://ci.ender.zone/plugin/repository/everything/</url>
         </repository>
         <repository>
-            <id>aikar</id>
-            <url>https://repo.aikar.co/content/groups/aikar/</url>
-        </repository>
-        <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
         </repository>
+                <repository>
+            <id>papermc-repo</id>
+            <url>https://papermc.io/repo/service/rest/repository/browse/maven-public/</url>
+        </repository>
+
     </repositories>
 
     <dependencies>
